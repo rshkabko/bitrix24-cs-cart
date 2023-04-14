@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<addon scheme='3.0'>
+    <id>flamix_bitrix24</id>
+    <version>1.0</version>
+	<name>CS-Cart and Bitrix24 integration</name>
+	<description>Integration of a CS-Cart Store with Bitrix24 CRM. Creation of Leads or Deals in Bitrix24 when clients place orders on the CS-Cart store.</description>
+	<default_language>ru</default_language>
+    <priority>1000</priority>
+	<status>active</status>
+	<has_icon>Y</has_icon>
+	<authors>
+		<author>
+			<name>Flamix (Roman Shkabko)</name>
+			<email>sales@flamix.email</email>
+			<url>https://flamix.solutions</url>
+		</author>
+	</authors>
+	<compatibility>
+		<php_extensions>
+			<json>
+				<supported>Y</supported>
+			</json>
+			<curl>
+				<supported>Y</supported>
+			</curl>
+		</php_extensions>
+	</compatibility>
+    <settings>
+		<sections>
+		    <section id="general">
+		        <items>
+		            <item id="portal">
+		                <type>input</type>
+		            </item>
+					<item id="api_key">
+						<type>input</type>
+					</item>
+                    <item id="backup_email">
+                        <type>input</type>
+                    </item>
+					<item id="info">
+						<type>info</type>
+						<handler>fn_flamix_bitrix24_config_check</handler>
+						<variants/>
+					</item>
+		        </items>
+		    </section>
+            <section id="find">
+                <items>
+                    <item id="find_on">
+                        <type>checkbox</type>
+                    </item>
+                    <item id="find_site">
+                        <type>input</type>
+                    </item>
+                </items>
+            </section>
+		</sections>
+	</settings>
+</addon>

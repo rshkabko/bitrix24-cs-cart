@@ -1,0 +1,17 @@
+{
+    "name": "flamix/bitrix24-contact-form-7-lead",
+    "require": {
+        "flamix/b24-lead": "dev-master",
+        "monolog/monolog": "^2.0",
+        "symfony/var-dumper": ">=5.4"
+    },
+    "autoload": {
+        "files": ["helpers.php"]
+    },
+    "authors": [
+        {
+            "name": "Flamix",
+            "email": "sales@flamix.email"
+        }
+    ]
+}
