@@ -1,0 +1,10 @@
+*
+!.gitignore
+!README.MD
+!app
+!app/addons/flamix_bitrix24
+!app/addons/flamix_bitrix24/*
+!design
+!design/*
+!var
+!var/*
