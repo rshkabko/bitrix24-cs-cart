@@ -1,11 +1,7 @@
 .idea
-.DS_Store
+*DS_Store
 *.zip
 *.sh
-/app/addons/*
+app/addons/*
 !app/addons/flamix_bitrix24
 !app/addons/flamix_bitrix24/*
-/design/*
-!/design/backend/media/images/addons/flamix_bitrix24/*
-/var/*
-!/var/langs/*/addons/flamix_bitrix24.po

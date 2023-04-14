@@ -1,0 +1,41 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::flamix_bitrix24"
+msgid "CS-Cart and Bitrix24 integration"
+msgstr "CS-Cart and Bitrix24 integration"
+
+msgctxt "Addons::description::flamix_bitrix24"
+msgid "Allow integrate CRM Bitrix24 and CS-Cart shop"
+msgstr "Allow integrate CRM Bitrix24 and CS-Cart shop"
+
+msgctxt "SettingsSections::flamix_bitrix24::general"
+msgid "Module Settings"
+msgstr "Module Settings"
+
+msgctxt "SettingsOptions::flamix_bitrix24::portal"
+msgid "Bitrix24 domain name"
+msgstr "Bitrix24 domain name"
+
+msgctxt "SettingsOptions::flamix_bitrix24::api_key"
+msgid "Flamix plugin API key"
+msgstr "Flamix plugin API key"
+
+msgctxt "SettingsOptions::flamix_bitrix24::backup_email"
+msgid "Backup mailbox"
+msgstr "Backup mailbox"
+
+msgctxt "SettingsSections::flamix_bitrix24::find"
+msgid "Product"
+msgstr "Products mapping"
+
+msgctxt "SettingsOptions::flamix_bitrix24::find_on"
+msgid "Enable search product"
+msgstr "Enable products mapping"
+
+msgctxt "SettingsOptions::flamix_bitrix24::find_site"
+msgid "Site field"
+msgstr "Field on the site (product, product_code)"
