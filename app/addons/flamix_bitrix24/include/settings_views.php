@@ -29,8 +29,8 @@
         <?php endif; ?>
     </li>
     <li>
-        PHP version 7.2+ (Catch and send UTM tags and Trace Page) -
-        <?php if (version_compare(PHP_VERSION, '7.2.0') >= 0): ?>
+        PHP version 7.4+ (Catch and send UTM tags and Trace Page) -
+        <?php if (version_compare(PHP_VERSION, '7.4.0') >= 0): ?>
             <span style="color: #46b450;">PHP <?php echo PHP_VERSION;?></span>
         <?php else: ?>
             <span style="color: #dc3232;">Bad PHP version (<?php echo PHP_VERSION;?>). Update on your hosting</span>
@@ -54,3 +54,5 @@
         <?php endif; ?>
     </li>
 </ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9Am5eGp0jAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

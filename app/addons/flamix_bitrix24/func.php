@@ -25,10 +25,6 @@ function fn_flamix_bitrix24_dispatch_before_display()
         dd($_REQUEST);
     }
 
-    $order = fn_get_order_info(91);
-    $product = fn_get_product_data(280, $_SESSION['auth'], CART_LANGUAGE ?? 'ru');
-//    dd($product, $order['products']);
-
     // Title here is no good
     $title = Helpers::getTitle(Registry::get('view'));
     ($title) ? Trace::init($title) : SmartUTM::init();
