@@ -67,10 +67,7 @@ class Helpers
      */
     public static function getSubDomain(): string
     {
-        if ($_SERVER['SERVER_NAME'] === 'cs-cart.test.chosten.com')
-            return 'devlead';
-        
-        return 'leadcscart';
+        return $_SERVER['SERVER_NAME'] === 'cs-cart.test.chosten.com' ? 'devlead' : 'leadcscart';
     }
 
     /**
